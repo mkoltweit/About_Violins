@@ -1,0 +1,411 @@
+body {
+    background-color: #D9C196;
+    font-family: "arial";
+    color: black;
+}
+
+/* navigation bar */
+nav {
+    background-color: #590902;
+    padding: 5px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+nav li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #D9C196;
+}
+ /* REQUIRED 12/8/19 pseudo-element */
+nav li a:hover {
+    text-decoration: underline;
+    color: #D9C196;  
+}
+/* main body */
+h1 {
+    font-size: 36px;
+}
+p {
+    margin: 15px;
+}
+#aboutDescription {
+    text-align: left;
+    padding-top: 25px;
+}
+#historyInfo {
+    text-align: left;   
+}
+/* REQUIRED 12/9/19 border */
+.quotes {
+    background:url(images/background.jpg);
+    border: 2px dotted #590902;
+}
+.quotes blockquote {
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size:34px;
+}
+.factName {
+    font-size:18px;
+    margin-left:5%;
+}
+/* form */
+form {
+    left: 0;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: #590902;
+    color: #D9C196;
+    padding: 15px;
+    margin-top: 15px;
+}
+input {
+    border-radius: 5px;
+}
+::placeholder {
+    padding: 5px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+    color: #590902;
+    text-align: center;
+    padding: 15px;
+    padding-right:30px;
+    overflow: hidden;
+  }
+/* images */
+.indexContent {
+    float: left;
+}
+.indexContent article {
+    float:left;
+}
+.generalImage img {
+    border-radius: 8px;
+    width: 100%;
+    display:block;
+    height: auto;
+    padding:15px;
+
+}
+
+.violinPartsImg {
+    border: 5px solid #590902;
+    border-radius: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;  
+}
+/* REQUIRED 12/8/19 pseudo-element */
+.violinPartsImg:hover {
+    transform: scale(1.5);
+    display: block;
+    margin-left: 50px;
+}
+.violinInteriorImg {
+    border: 5px solid #590902;
+    border-radius: 10px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* REQUIRED 12/8/19 pseudo-element */
+.violinInteriorImg:hover {
+    transform: scale(1.5);
+    display: block;
+    margin-right: 50px;
+}
+.stringVibrationImg {
+    border: 5px solid #590902;
+    border-radius: 10px;
+    float: right;
+    margin-right: 15px;
+}
+/* REQUIRED 12/8/19 pseudo-element */
+.stringVibrationImg:hover {
+    transform: scale(1.5);
+    display: block;
+    margin-right: 50px;
+}
+    /* REQUIRED 11/25/19 advanced image styling */
+.historyImg.vintage{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    border-left: 2px solid rgb(51, 51,51);
+    border-right: 2px solid rgb(51, 51,51);
+    box-shadow: rgb(51, 51,51) 15px 0px 25px,
+                rgb(51, 51,51) -15px 0px 25px;
+}
+.scienceImg {
+    width:35%;
+}
+.historyImg {
+    float:right;
+    margin:15px;
+    width:35%;
+}
+
+.header-background {
+    background-image: url("images/background.jpg");
+    padding: 50px;
+}
+
+.header-background h1 {
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    border: 2px solid black;
+}
+#stirlingImg {
+    width: 100%;
+}
+div.artists {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+div#stirling {
+    text-align: center;
+    padding: 10px 20px;
+  }
+/* violinists images */
+div.artists {
+    text-align: center;
+    clear: both;
+  }
+.artists .artist {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+.artist img {
+    width: 300px;
+    height: auto;
+}
+.artistBio {
+    padding: 10px;
+    color: #D9C196;
+    background: #590902;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15px;
+}
+#showBio { 
+    position:fixed;
+    top:40%;
+    left:30%;
+}
+/* video */
+video {
+    padding:20px;
+    width: 100%;
+    float: left;
+}
+/*REQUIRED 12/9/19 table */
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.odd {
+    background-color: #BFA065;
+}
+.tableHeading {
+    background-color:#832921;
+}
+.violinType {
+    background-color: #BFA065;
+}
+
+table {
+    margin: 25px;
+}
+/* list */
+.factsList li {
+    padding:5px;
+}
+
+/********** Slideshow Code *****************/
+.mySlides {
+    display: none;
+    margin-top:110px;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    text-shadow: 4px 4px black;
+    color: white;
+    font-size: 35px;
+    padding: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*********** End slideshow code ************/
+
+/* REQUIRED 12/8/19 tablet media queries */
+@media only screen and (min-width:768px) {
+    .informationText {
+        float: right;
+    }
+    .infoText {
+        margin-left: 5%;
+        margin-right: 5%;
+        float: left;
+        
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    
+    .contentOne {
+        width:45%;
+        float:left;
+        padding:15px;
+    }
+    .instrumentsContainer {
+        width: 100%;
+    }
+    .instrumentsContent {
+        width:100%;
+    }
+    
+}
+/* REQUIRED 12/8/19 desktop media queries */
+@media only screen and (min-width:1024px) {
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    .infoText {
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 5px;
+        float: left;
+        
+    }
+    .contentOne {
+        width:45%;
+        float:left;
+        padding:15px;
+    }
+    .instrumentsContainer {
+        width: 100%;
+    }
+    .instrumentsContent {
+        width:50%;
+        float:right;
+    }
+}
+

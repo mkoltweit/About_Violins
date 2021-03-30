@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <!--REQUIRED 12/9/19 title-->
+            <title>About Violins</title>
+            <meta charset="UTF-8">
+            <!--REQUIRED 12/9/19 description-->
+            <meta name="description" content="Website about violins">
+            <!--REQUIRED 12/9/19 keywords-->
+            <meta name="keywords" content="violin, science, music, strings, violinists">
+            <!--REQUIRED 12/9/19 author-->
+            <meta name="author" content="Michelle Koltweit">
+            <!--REQUIRED 12/9/19 viewport-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="styles.css" rel="stylesheet" />
+        </head>
+        
+    
+
+    <body>
+        <!--REQUIRED 12/9/19 navigation bar-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="science.html">Science of the Violin</a></li>
+                <li><a href="violinists.html">Famous Violinists</a></li>
+                <li><a href="styles.html">Violin Styles</a></li>
+                <li><a href="facts.html">Interesting Facts</a></li>
+            </ul>
+        </nav>
+        <!--Main body of page-->
+       <main>
+           <div class="header-background">
+                <h1>Information About Violins</h1>
+           </div>
+           <div class="indexContent">
+                <section>
+                    <article>
+                            <p id="aboutDescription">The violin is a bowed string instrument with four strings tuned in perfect fifths. It is 
+                                the smallest and highest-pitched member of the violin family of string instruments, which also includes the viola,
+                                cello and double bass.</p>
+                            <p>
+                                A violin is sometimes informally called a fiddle, no matter what kind of music is played on it. The word "violin" 
+                                comes to us through the Romance languages from the Middle Latin word vitula, meaning "stringed instrument" this word 
+                                may also be the source of the Germanic "fiddle".
+                            </p>
+                            
+                    </article>
+                    <div class="contentWrap">
+                        <div class="contentOne">
+                        <!--REQUIRED 11/25/19 video-->
+                        <video width="720" height="480" controls>
+                                <source src="violin.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        </div>
+                    <div class="contentOne">
+                        <div class="generalImage">
+                            <!--REQUIRED 11/25/19 image-->
+                            <img id="violinBowSheetMusicImg" src="images/violinBowSheetMusic.jpg" alt="Multiple Violins" />
+                        </div>
+                    </div>
+                </div>
+                    
+                </section>
+            </div>
+           
+    
+           
+       </main>
+       <!--REQUIRED 11/11/19 footer-->
+       <footer>
+            <div>
+                    <!--REQUIRED 11/17/19 form-->
+                    <form>
+                        <!--REQUIRED 11/17/19 fieldset-->
+                        <fieldset>
+                            <!--REQUIRED 11/17/19 legend-->
+                            <legend>Subscribe</legend>
+                            <p>Enter your information to subscribe to our monthly newsletter.</p>
+                            <!--REQUIRED 11/17/19 field label-->
+                            <label for="nameInput">Name</label>
+                            <!--REQUIRED 11/17/19 maxlength, different data type 1, input box, placeholder, required-->
+                            <input id="nameInput" placeholder="Name" type="text" maxlength="30" required />
+                            <!--REQUIRED 11/17/19 form-->
+                            <label for="emailInput">Email</label>
+                            <!--REQUIRED 11/17/19 different data type 2, placeholder, required, pattern-->
+                            <input type="email" id="emailInput" placeholder="johnsmith@example.com" 
+                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+                             <!--REQUIRED 11/17/19 reset button-->
+                             <input type="reset" id="resetButton" value="Reset" />
+                             <!--REQUIRED 11/17/19 submit button-->
+                             <input type="submit" id="subscribeButton" value="Subscribe" /> 
+                        </fieldset>   
+                    </form>
+                </div>
+        <!-- REQIRED 12/8/19 address -->
+        <address>
+            <p>Created by: Michelle Koltweit</p>
+            <p>Contact information: <a href="mailto:someone@example.com">
+            michelle@example.com</a>.</p>
+        </address>
+      </footer> 
+    </body>
+
+</html>

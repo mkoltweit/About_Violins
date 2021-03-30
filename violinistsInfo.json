@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "Jascha Heifetz",
+        "Born": "February 2, 1901",
+        "Died": "December 10, 1987",
+        "About": "Jascha Heifetz was a Russian-American violinist. Many consider him the greatest violinist of the 20th century. Born in Vilna, he moved as a teenager to the United States, where his Carnegie Hall debut was rapturously received." 
+    },
+    {
+        "Name": "David Oistrakh",
+        "Born": "September 30, 1908" ,
+        "Died": "October 24, 1974" ,
+        "About": "David Fyodorovich Oistrakh was a Soviet classical violinist, violist and conductor."
+    },
+    {
+        "Name": "Ruggiero Ricci",
+        "Born": "July 24, 1918",
+        "Died": "August 6, 2012" ,
+        "About": "Ruggiero Ricci was an American violinist known for performances and recordings of the works of Paganini." 
+    },
+    {
+        "Name": "Isaac Stern",
+        "Born": "July 21, 1920",
+        "Died": "September 22, 2001",
+        "About": "Isaac Stern (born 1920) is one of the foremost violinists in the world. He is renowned for his great musical talent, for his great energy, and for his enormous heart." 
+    },
+    {
+        "Name": "Itzhak Perlman",
+        "Born": "August 31, 1945",
+        "Died": "N/A",
+        "About": "Itzhak Perlman is an Israeli-American violinist, conductor, and music teacher. Over the course of his career Perlman has performed worldwide, and throughout the United States, in venues that have included a State Dinner at the White House honoring Queen Elizabeth II, and at the Presidential Inauguration of President Obama." 
+    },
+    {
+        "Name": "Anne-Sophie Mutter",
+        "Born": "June 29, 1963",
+        "Died": "N/A",
+        "About": "Anne-Sophie Mutter is a German violinist. She was supported early in her career by Herbert von Karajan, and has had several works composed especially for her, by Sebastian Currier, Henri Dutilleux, Sofia Gubaidulina, Witold Lutosławski, Norbert Moret, Krzysztof Penderecki, André Previn, Wolfgang Rihm, John Williams and others." 
+    },
+    {
+        "Name": "Hilary Hahn",
+        "Born": "November 27, 1979",
+        "Died": "N/A",
+        "About": "Hilary Hahn is an American violinist. She has performed throughout the world both as a soloist with leading orchestras and conductors and as a recitalist. She has also built a reputation as a champion of contemporary music." 
+    },
+    {
+        "Name": "Lindsey Stirling",
+        "Born": "September 21, 1986",
+        "Died": "N/A",
+        "About": "Lindsey Stirling is an American violinist, singer, songwriter, and dancer. She presents choreographed violin performances, both live and in music videos found on her eponymous YouTube channel, which she created in 2007." 
+    },
+    {
+        "Name": "Daniel Jang",
+        "Born": "November 28, 1990",
+        "Died": "N/A",
+        "About": "Born and raised in New Jersey, USA, Daniel Jang is a Taiwanese-American who enjoys playing many genres of music such as classical, pop, and church music." 
+    }
+]
